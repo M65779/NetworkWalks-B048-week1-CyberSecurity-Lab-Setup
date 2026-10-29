@@ -83,7 +83,7 @@ Gateway: 10.0.0.1
 DNS: 8.8.8.8
 ```
 
-Used a fixed IP address makes to make it easier for lab documentation and access the Kali machine in future exercises.
+Using a fixed IP address makes it easier for lab documentation and access the Kali machine in future exercises.
 
 ![](connection.png)
 
@@ -91,7 +91,7 @@ Used a fixed IP address makes to make it easier for lab documentation and access
 
 ## Step 6. Create a Clean VM Snapshot
 
-After completing the initial configuration, a VirtualBox snapshot was created.
+Once the initial setup was complete, a VirtualBox snapshot was created.
 
 Example of snapshot :
 
