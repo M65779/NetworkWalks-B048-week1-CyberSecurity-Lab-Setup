@@ -9,8 +9,6 @@ Creating a virtual lab for safe cybersecurity testing and ethical hacking
 
 This project focuses on setting up a **virtual cybersecurity and penetration-testing laboratory** using VirtualBox and Kali Linux.
 
-The purpose of the lab is to create a controlled environment where cybersecurity tools, network scanning, reconnaissance, vulnerability assessment, and other security-testing activities can be performed safely and repeatedly.
-
 ---
 # 🪜 Lab Setup Procedure
 
@@ -65,7 +63,7 @@ The VM was allocated:
 ```text
 RAM: 2048 MB
 ```
-![](3-screenshot-kali-linux.png)
+![](screen.png)
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 
 
@@ -87,7 +85,7 @@ DNS: 8.8.8.8
 
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
 
-![](4-screenshot-kali-network-settings.png)
+![](connection.png)
 
 ---
 
