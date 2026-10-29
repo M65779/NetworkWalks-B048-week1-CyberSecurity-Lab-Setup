@@ -98,3 +98,25 @@ Example of snapshot :
 ![](snapshot.png)
 
 ---
+# Problems Encountered & Solutions
+
+Documenting problems is an important part of the project.
+
+## Could not find the Network Option on VirtualBox
+
+I could not find the Network option on VirtualBox to resolve this I switched the VirtualBox mode to expert which resolved this issue.
+
+---
+
+#  What I Learned
+
+ I learnt how to do a virtual network setup, NAT Network, IP configuration, snapshots and technical documentation.
+
+# Tools & Resources
+
+- **7-Zip:** [https://7-zip.org/download.html](https://7-zip.org/download.html)
+- **VirtualBox:** [https://virtualbox.org/wiki/Downloads](https://virtualbox.org/wiki/Downloads)
+- **Kali Linux:** [https://kali.org/get-kali](https://kali.org/get-kali)
+
+---
+
