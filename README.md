@@ -1,2 +1,6 @@
-# NetworkWalks-B048-week1-CyberSecurity-Lab-Setup
-CyberSecurity Lab setup
+<div align="center">
+
+# 🔐 Cybersecurity Lab Environment Setup
+
+**Creating a virtual lab for safe cybersecurity testing and ethical hacking **
+</div>
