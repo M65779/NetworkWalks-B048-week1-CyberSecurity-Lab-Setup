@@ -5,16 +5,16 @@
 Creating a virtual lab for safe cybersecurity testing and ethical hacking 
 </div>
 
-## 📌 Project Overview
+##  Project Overview
 
 This project focuses on setting up a **virtual cybersecurity and penetration-testing laboratory** using VirtualBox and Kali Linux.
 
 ---
-# 🪜 Lab Setup Procedure
+#  Lab Setup Procedure
 
 ## Step 1. Install 7-Zip
 
-7-Zip was installed to extract the Kali Linux virtual-machine package, which may be distributed as a `.7z` archive.
+7-Zip was installed to extract the Kali Linux virtual-machine package, which may be provided in `.7z` compressed format.
 
 **Tool:** 7-Zip
 
@@ -22,13 +22,13 @@ This project focuses on setting up a **virtual cybersecurity and penetration-tes
 
 ## Step 2. Install VirtualBox
 
-VirtualBox was installed as the hypervisor.
+VirtualBox was installed as the hypervisor for managing the virtual machines.
 
 ---
 
 ## Step 3. Create the NAT Network
 
-A dedicated NAT Network was created in VirtualBox.
+A NAT Network was created in VirtualBox.
 
 Configuration:
 Network Name: NatNetwork
@@ -38,16 +38,16 @@ IPv6:         Disabled
 
 ![](NAT.png)
 
-A **NAT Network** was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
+A **NAT Network** was chosen because it allows multiple virtual machines connected to the same NAT Network to communicate with each another while maintaining outbound network connectivity.
 
-This will allow future attacker and target VMs to communicate within the lab.
+This will enable future attacker and target virtual machines to communicate with another within the lab.
 
 
 ---
 
 ## Step 4. Import Kali Linux
 
-The Kali Linux virtual machine was downloaded from the official Kali Linux website and imported into VirtualBox.
+The Kali Linux virtual machine was obtained from the official Kali Linux website and then imported into VirtualBox for configuration.
 
 The VM network adapter was configured as follows:
 
@@ -64,7 +64,7 @@ The VM was allocated:
 RAM: 2048 MB
 ```
 ![](screen.png)
-A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
+A shared folder was also configured for file transfers between the host operating system and the Kali virtual machine.
 
 
 
@@ -72,7 +72,7 @@ A shared folder was also configured for transferring required files between the 
 
 ## Step 5. Configure the Kali Linux Network
 
-The Kali Linux network configuration was checked and configured with a consistent IPv4 address.
+The Kali Linux network configuration was reviewed and configured with a consistent IPv4 address.
 
 Example configuration:
 
@@ -83,7 +83,7 @@ Gateway: 10.0.0.1
 DNS: 8.8.8.8
 ```
 
-A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
+Used a fixed IP address makes to make it easier for lab documentation and access the Kali machine in future exercises.
 
 ![](connection.png)
 
